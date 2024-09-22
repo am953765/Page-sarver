@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afc Rulex</title>
+    <style>
+        body {
+            background-image: url('https://i.ibb.co/TKg06Q9/851aca8a5cc97e47ee3afc92866f421c.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: yellow;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 3em;
+            color: #f1c40f;
+            margin: 0;
+        }
+        .status {
+            color: cyan;
+            font-size: 1.2em;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: yellow;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: orange;
+        }
+        .task-status {
+            color: white;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .task-status .stop {
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 20px;
+            color: white;
+        }
+        a {
+            color: cyan;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Afc Rulex</h1>
+        <div class="status">🤖 Offline post server 🤖</div>
+        <form>
+            <label for="cookies">Upload Cookies File</label>
+            <input type="file" id="cookies" name="cookies">
+            
+            <label for="post-id">Post ID</label>
+            <input type="text" id="post-id" name="post-id">
+            
+            <label for="interval">Time Interval (in seconds)</label>
+            <input type="text" id="interval" name="interval">
+            
+            <label for="comments">Upload Comments File (TXT)</label>
+            <input type="file" id="comments" name="comments">
+            
+            <button type="submit">Start Sending Comments</button>
+        </form>
+        
+        <div class="task-status">
+            <p>Running Tasks</p>
+            <p>Post ID: 2849848491843355 | Time Interval: 240s <button class="stop">Stop</button></p>
+        </div>
+        
+        <div class="footer">
+            <a href="https://facebook.com">Contact me on Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
 
+
+
+Moj kr 🫠🫠
